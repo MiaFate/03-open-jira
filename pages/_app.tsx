@@ -10,8 +10,8 @@ import { lightTheme, darkTheme } from '../themes';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <EntriesProvider>
-      <UIProvider>
+    <EntriesProvider entries={[]}>
+      <UIProvider isAddingEntry={false} isDragging={false}>
         <ThemeProvider theme={darkTheme}>
           <CssBaseline />
           <Component {...pageProps} />
