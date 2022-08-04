@@ -24,8 +24,8 @@ export const UIProvider: FC<PropsWithChildren<UIState>> = ({ children }) => {
         <UIContext.Provider value={{
             ...state,
             //Methods
-            openSideMenu,
             closeSideMenu,
+            openSideMenu,
         }}>
             {children}
         </UIContext.Provider>

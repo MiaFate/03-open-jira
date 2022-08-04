@@ -3,8 +3,8 @@ import { createContext } from 'react';
 interface ContextProps {
     sideMenuOpen?: boolean;
     //Methods
-    openSideMenu: () => void;
     closeSideMenu: () => void;
+    openSideMenu: () => void;
 };
 
 export const UIContext = createContext({} as ContextProps);

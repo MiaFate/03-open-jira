@@ -8,12 +8,14 @@ specifiers:
   '@types/node': 17.0.35
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
+  '@types/uuid': ^8.3.4
   eslint: 8.16.0
   eslint-config-next: 12.1.6
   next: 12.1.6
   react: 18.1.0
   react-dom: 18.1.0
   typescript: 4.6.4
+  uuid: ^8.3.2
 
 dependencies:
   '@emotion/react': 11.9.0_a6wmty2wzb4cbtbfuwxel6efw4
@@ -23,11 +25,13 @@ dependencies:
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
+  uuid: 8.3.2
 
 devDependencies:
   '@types/node': 17.0.35
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
+  '@types/uuid': 8.3.4
   eslint: 8.16.0
   eslint-config-next: 12.1.6_zvyojjozjfatsvh7rlqywb6lme
   typescript: 4.6.4
@@ -799,6 +803,10 @@ packages:
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
 
+  /@types/uuid/8.3.4:
+    resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
+    dev: true
+
   /@typescript-eslint/parser/5.25.0_utdtartgf6fqqgkivzeynh76la:
     resolution: {integrity: sha512-r3hwrOWYbNKP1nTcIw/aZoH+8bBnh/Lh1iDHoFpyG4DnCpvEdctrSl6LOo19fZbzypjQMHdajolxs6VpYoChgA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1238,7 +1246,7 @@ packages:
     dev: false
 
   /escape-string-regexp/1.0.5:
-    resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=}
+    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
     dev: false
 
@@ -1693,7 +1701,7 @@ packages:
     dev: true
 
   /has-flag/3.0.0:
-    resolution: {integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=}
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
     dev: false
 
@@ -2457,7 +2465,7 @@ packages:
     dev: true
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: false
 
@@ -2523,6 +2531,11 @@ packages:
     dependencies:
       punycode: 2.1.1
     dev: true
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+    dev: false
 
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
