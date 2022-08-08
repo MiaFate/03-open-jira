@@ -1,5 +1,18 @@
 #Next.js OpenJira App
 
+*Reconstruir los modulos de node
+
+```
+npm run install
+npm run dev
+```
+
+si se usa pnpm:
+```
+pnpm install
+pnpm dev
+```
+
 Para correr localmente se necesita la base de datos
 ```
 docker-compose up -d
