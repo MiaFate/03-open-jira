@@ -27,9 +27,9 @@ export const connect = async () => {
     await mongoose.disconnect();
   }
 
-  await mongoose.connect(process.env.MONGO_URL || "");
+  await mongoose.connect(process.env.MONGODB_URI || "");
   mongoConnection.isConnected = 1;
-  console.log("conectado a mongodb:", process.env.MONGO_URL);
+  console.log("conectado a mongodb:", process.env.MONGODB_URI);
 };
 
 export const disconnect = async () => {
@@ -43,6 +43,6 @@ export const disconnect = async () => {
 
   await mongoose.disconnect();
   mongoConnection.isConnected = 0;
-  
+
   console.log("desconectado de mongodb");
 };
